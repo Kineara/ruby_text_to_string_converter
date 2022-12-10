@@ -1,3 +1,5 @@
+require 'clipboard'
+
 input_array = File.readlines('input.txt')
 output_file = File.open('./output.txt', 'w')
 
@@ -20,4 +22,6 @@ input_array.each do |element|
   output_array.push(output)
 end
 
-output_file.write(output_array.join(',')[0..-1])
+final_output = output_array.join(',')[0..-1]
+Clipboard.copy(final_output )
+output_file.write(final_output)
