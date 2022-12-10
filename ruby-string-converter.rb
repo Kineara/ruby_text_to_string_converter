@@ -4,8 +4,6 @@ output_file = File.open('./output.txt', 'w')
 output_array = []
 
 input_array.each do |element|
-  # Remove the indexes from element if input has no newline chars
-
   words_array = element.split(' ')
   output = ''
   words_array.each do |word|
