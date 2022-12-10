@@ -12,7 +12,7 @@ input_array.each do |element|
 
   words_array.each_with_index do |word, i|
     letter_array = word.split('')
-    quote_indexes = letter_array.each_index.select { |index| letter_array[index]=='"'}
+    quote_indexes = letter_array.each_index.select { |index| letter_array[index]=='"' || letter_array[index]== "'"}
 
     quote_indexes.each do |index|
       letter_array[index] = '\"'
