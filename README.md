@@ -6,6 +6,8 @@ A quick and dirty way to make copying and pasting lists of data into arrays easi
 
 ## Use
 
+- Clone the repository
+- Run ```bundle install``` in your terminal from the repository directory to install the dependencies
 - Paste the text to be converted into input.txt
-- Open a terminal and run ```ruby ./ruby-string-converter.rb```
+- Run ```ruby ./ruby-string-converter.rb```
 - The formatted strings will be written to output.txt
