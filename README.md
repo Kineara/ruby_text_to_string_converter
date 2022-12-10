@@ -6,7 +6,6 @@ A quick and dirty way to make copying and pasting lists of data into arrays easi
 
 ## Use
 
-- Assumes input is formatted as text with newline characters
 - Paste the text to be converted into input.txt
 - Open a terminal and run ```ruby ./ruby-string-converter.rb```
 - The formatted strings will be written to output.txt
